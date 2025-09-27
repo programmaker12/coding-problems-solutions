@@ -12,7 +12,7 @@ public class Problem_001 {
     public Problem_001() {
 
     }
-    public String shiftAlphabet(String input, List<String> operations) { 
+    public String shiftAlphabet(String input, List<String> operations) {
 
         char [] array1 = input.toCharArray();
         for(String a1 : operations) {
