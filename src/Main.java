@@ -23,6 +23,9 @@ public class Main {
      char result = ' ';
      List<String> list = List.of("0 1 L", "2 4 R");
      String input = "teacher";
-     System.out.println(new Problem_001().shiftAlphabet(input, list));
+     System.out.println("Solution_001 : "+new Problem_001().shiftAlphabet(input, list));
+     System.out.println("Solution_002 : "+new Problem_002().rate(2.2, 3.354));
+     System.out.println("Solution_002 : "+new Problem_002().rate("rupee", "dollar"));
+     System.out.println("Solution_002 : "+new Problem_002().rate(2.2, "dollar"));
     }
 }
